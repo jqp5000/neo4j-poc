@@ -6,6 +6,7 @@ The tests consist in running the exact same code each with a different driver.
 The only pre-requisite is that you will need to have Neo4j 3 installed with the Bolt connector enabled.
 
 When running 'mvn clean install' 2/3 test will fail:
+
     my.neo4j.poc.test.unit.BoltDriverTest will FAIL
     my.neo4j.poc.test.unit.EmbeddedDriverTest will FAIL
     my.neo4j.poc.test.unit.HttpDriverTest will SUCCEED
